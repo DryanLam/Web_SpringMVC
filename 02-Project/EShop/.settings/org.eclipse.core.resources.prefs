@@ -1,0 +1,11 @@
+#Tue Jan 01 02:14:39 GMT+07:00 2002
+eclipse.preferences.version=1
+encoding//src/account_vi.properties=UTF-8
+encoding//src/eshop/admin/controller/AdminController.java=UTF-8
+encoding//src/eshop/admin/controller/CategoryMgrController.java=UTF-8
+encoding//src/eshop/admin/controller/MasterRoleMgrController.java=UTF-8
+encoding//src/eshop/admin/controller/RoleActionMgrController.java=UTF-8
+encoding//src/eshop/controller/AccountCountroller.java=UTF-8
+encoding//src/eshop/controller/ProductController.java=UTF-8
+encoding//src/eshop/controller/ShoppingCartController.java=UTF-8
+encoding//src/global_vi.properties=UTF-8

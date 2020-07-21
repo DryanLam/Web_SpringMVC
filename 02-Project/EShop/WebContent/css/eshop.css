@@ -1,0 +1,138 @@
+﻿/**
+ * CSS structure
+ */
+.nn-header{
+    position:relative;
+    height:145px;
+    background-image: url("images/7.png");
+	background-repeat: repeat-x;
+}
+
+footer{
+	height:145px;
+	background-image: url("images/7.png");
+	background-repeat: repeat-x;
+}
+
+footer p{
+	padding-top: 20px;
+	font-family: "Times New Roman", Times, serif;
+	font-size: 20px;
+	color: #FFB90F;
+}
+
+.nn-company{
+    font-family: "Times New Roman", Times, serif;
+    font-size:60px;
+    color: #FFB90F;
+    text-shadow:0 0 2px black;
+    position:absolute;
+    margin-left: 20px;
+    padding-bottom:2px;
+    border-bottom:3px solid #FFB90F;
+}
+.nn-slogan{
+	font-family: "Times New Roman", Times, serif;
+    position:absolute;
+    font-size:30px;
+    font-weight: 200;
+    color: #FFB90F;
+    top:90px;
+    margin-left: 20px;
+}
+
+.nn-sheet{
+    box-shadow:0 0 5px lightgray;
+    border-radius:10px;
+    padding:5px;
+    position:relative;
+    top:-10px;
+}
+
+.nn-body{
+    padding:5px;
+}
+
+.nn-cart ul {
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+    font-size:smaller;
+}
+
+.panel-heading strong{
+	font-variant: small-caps;
+	font-size: larger;
+}
+
+/*-----product list-----*/
+
+div.nn-box{
+	padding:0px;
+	margin:0px;
+}
+
+div.nn-box ul{
+	list-style:none;
+	padding:5px;
+	margin:5px;
+	font-size:smaller;
+	text-align:center;
+	border-radius:10px;
+	box-shadow:0 0 5px lightgray;
+	
+    position:relative;
+}
+
+div.nn-box ul li:nth-child(2) img{
+	max-width: 90%;
+	height: 150px;
+	margin-bottom: 20px;
+}
+
+div.nn-box ul li:nth-child(3){
+	position: absolute;
+	right: 5px;
+	bottom: 5px;
+	font: 20px Impact;
+	color:darkgray;
+}
+div.nn-box ul li:nth-child(4){
+	position: absolute;
+	left: 5px;
+	bottom: 5px;
+	width: 24px;
+}
+div.nn-box ul li:nth-child(5){
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+
+div.nn-box ul li:nth-child(2) img{
+    -webkit-transition: -webkit-transform 1s, border-radius 0.2s;
+	-ms-transition: -ms-transform 1s, border-radius 0.2s;
+    transition: transform 1s, border-radius 0.2s;
+}
+div.nn-box ul li:nth-child(2) img:hover{
+	-ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    border-radius:50%;
+}
+
+/*-----product detail-----*/
+
+div.nn-detail li{
+	line-height: 30px;
+	list-style: url("../images/postbullets.png");
+}
+div.nn-detail li span{
+	display: inline-block;
+	width: 110px;
+	font-variant: small-caps;
+	font-size: larger;
+}
+div.nn-detail img{
+	max-height: 350px;
+}

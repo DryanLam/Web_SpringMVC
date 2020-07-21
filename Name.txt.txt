@@ -1,0 +1,8 @@
+﻿Name: Lâm Tấn Dũng
+Year: 1987
+
+Project: Shopping Store Online
+
+Username/Password:
++ SQL: sa/tandunglam
++ Login:lamtandung/tandunglam
