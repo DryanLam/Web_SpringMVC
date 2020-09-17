@@ -1,5 +1,4 @@
-﻿Name: Lâm Tấn Dũng
-Year: 1987
+﻿Name: Dryan Lam
 
 Project: Shopping Store Online
 
